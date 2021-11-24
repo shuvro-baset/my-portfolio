@@ -8,7 +8,13 @@
     border-radius: 50%;
 }
 .skill{
-    background-color: antiquewhite;
-    padding: 15px;
-    margin: 10px;
+    /* background-color: antiquewhite; */
+    /* padding: 5px; */
+    /* margin: px;  */
+}
+.skill img{
+    height: 120px;
+    width: 120px;
+    background-color: aqua;
+    padding: 5px;
 }
