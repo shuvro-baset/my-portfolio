@@ -4,9 +4,9 @@ function processData(input) {
     for (const i of input) {
         digit_array.push(+i);
     }
-    
+
     var array_length = digit_array.length;
-    
+
     var condition_1 = false;
     var condition_2 = false;
     var condition_3 = false;
@@ -20,19 +20,17 @@ function processData(input) {
     }
     
 //     Checking for the second condition
-    
     function check_similarity(array) {
         var set = new Set(array);
         return (set.size === 1);
     }
-    
+
     if (check_similarity(digit_array)) {
         condition_2 = true;
     }
-        
     
 //     Checking for the third condition
-    
+
     for (item of digit_array) {
         var item_index = digit_array.indexOf(item);
         
