@@ -12,12 +12,3 @@ https://sarahdayan.dev/
 https://panthopro.xyz/?fbclid=IwAR2cYGKbhSnqaFGGRjZs1yIXv9WdmIWcoE6D57Ntz3w0quMl0qGotxqh5kA
 
 
-
-
-
-
-
-https://www.codeinwp.com/blog/best-javascript-animation-libraries/
-https://www.sitepoint.com/our-top-9-animation-libraries/
-https://careerfoundry.com/en/blog/ui-design/best-free-animation-libraries/
-https://www.vandelaydesign.com/best-web-animation-libraries/
