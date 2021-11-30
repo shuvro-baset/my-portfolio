@@ -19,6 +19,16 @@
     box-shadow: inset 120px 0 0 0 rgb(4, 238, 247);
     color: #fff;
 }
+.btn-2{
+    background-color: #53535350;
+    padding: 3px 8px;
+    color: #fff;
+}
+.btn-2:hover{
+    background-color: #53535350;
+    padding: 3px 8px;
+    color: rgb(8, 216, 243);
+}
 .nav-bg{
     background-color: #000000;
     color: #fff !important;
@@ -27,7 +37,7 @@
     color: #000 !important;
 }
 .nav-link:hover{
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 .nav-item{
     width: 120px;
@@ -41,7 +51,7 @@
 }
 .nav-item:hover{
     box-shadow: inset 120px 0 0 0 rgb(4, 238, 247);
-    color: #fff !important;
+    color: black;
 }
 
 
@@ -65,7 +75,7 @@
     padding: 5px; 
 }
 .second-bg{
-    padding: 10px;
+    /* padding: 10px; */
     box-shadow: rgb(4, 224, 231) 3px 3px 6px 0px inset, rgba(8, 220, 235, 0.5) -3px -3px 6px 1px inset;
 
 }
@@ -200,6 +210,16 @@
 
 .contact-me{
     background-color: #000000;
+}
+.contact-desc{
+    background-color: #35343436;
+    height: 200px;
+    width: 200px;
+    color: #fff;
+}
+.contact-desc i{
+    font-size: 30px;
+    color:rgb(4, 224, 231)
 }
 .footer-part{
     background-color: #000000;

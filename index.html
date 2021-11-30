@@ -34,9 +34,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#skills">Skills</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="projects.html">Projects</a>
           </li>
@@ -65,7 +65,7 @@
       <h1 style="color: greenyellow" class="text-center py-3">About Me</h1>
 
       <div class="row pt-5 text-white">
-        <div data-aos="zoom-in" class="col-lg-6 d-flex justify-content-center align-items-center">
+        <div data-aos="zoom-in-down" class="col-lg-6 d-flex justify-content-center align-items-center">
           <div class="ms-lg-5">
             <h2>Hi there,</h2>
             <p> I am Baset, a full-stack web developer from Bangladesh. 
@@ -73,7 +73,7 @@
             </p>
           </div>
         </div>
-        <div data-aos=zoom-in" class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+        <div data-aos="zoom-in-up" class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <div class="about-me">
             <img class="img-fluid" src="images/baset.png" alt="">
           </div>
@@ -88,13 +88,15 @@
       </div>
       <div class="row py-3 d-flex justify-content-center align-items-center">
         <div class="col-lg-6 d-flex align-items-center">
-          <div data-aos="fade-right" class="second-bg w-50 m-2">
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom" class="second-bg w-50 p-3 text-white">
             <h3>Education:</h3>
             <h6>Bsc in CSE</h6>
             <h6>University of Development Alternative</h6>
             <h6>2018</h6>
           </div>
-          <div data-aos="fade-left" class="second-bg w-50 m-2">
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom" class="second-bg w-50 p-3 text-white">
             <h3>Experience:</h3>
             <h6>Expo IT</h6>
             <h6>Junior Software Engineer</h6>
@@ -108,7 +110,7 @@
     <!-- skill section -->
     <div class="container-fluid py-5 skill-part" id="skills">
       <div class="row">
-      <h2 class="text-center">My Skills</h2>
+      <h2 class="text-center text-white">My Skills</h2>
 
             <div class="slider">
               <div class="slide-track">
@@ -189,6 +191,14 @@
       </div>
     </div>
 
+
+    <!-- services part  -->
+
+    <!-- <div class="container-fluid" id="services">
+      <div class="row">
+
+      </div>
+    </div> -->
 <!-- projects part  -->
     <div class="container-fluid project-part">
       <h1 class="pt-5 text-center text-white">Projects</h1>
@@ -264,6 +274,26 @@
     <section id="contact">
       <div class="container-fluid contact-me">
         <h2 class="text-center text-white pt-5">Contact Me</h2>
+        <div class="row">
+          <div class="col-lg-4 d-flex justify-content-center align-items-center">
+              <div class="d-flex flex-column justify-content-center align-items-center contact-desc">
+                <i class="fas fa-map-marker mb-3"></i>
+                <small>92, Lalbagh Dhaka</small>
+              </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center">
+              <div class="d-flex flex-column justify-content-center align-items-center contact-desc">
+                <i class="fas fa-envelope mb-3"></i>
+                <small>md.abdul.baset@gmail.com</small>
+              </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center">
+              <div class="d-flex flex-column justify-content-center align-items-center contact-desc">
+                <i class="fas fa-phone-alt mb-3"></i>
+                <small>+880-1673841675</small>
+              </div>
+          </div>
+        </div>
         <div class="row d-flex justify-content-center align-items-center py-5">
           <div class="col-lg-6 text-white">
             <form target="_blank" action="https://formsubmit.co/shuvro.aps.75@gmail.com" method="POST">
@@ -281,6 +311,7 @@
                 <label for="message">Message</label>
                 <textarea name="message" class="form-control" id="message" rows="3"></textarea>
               </div>
+              <br>
               <button class="btn btn-primary" type="submit">Submit</button>
             </form>
           </div>
