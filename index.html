@@ -10,38 +10,43 @@
     <script src="https://kit.fontawesome.com/fb93ded780.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>shuvro baset</title>
 </head>
 <body>
 
+  <!-- navbar start -->
     <nav class="navbar navbar-expand-lg navbar-dark nav-bg sticky-top ">
-      <!-- <a class="navbar-brand text-white" href="#">shuvro baset</a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Blogs</a>
+              <a class="nav-link" href="Blogs.html">Blogs</a>
             </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="projects.html">Projects</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+
     <!-- banner start -->
 <div id="particles-js">
   <div class="intro-text">
@@ -56,49 +61,55 @@
 
 
     <!-- about section  -->
-    <div class="container-fluid about-section">
-      <h1 class="text-center text-primary py-3">About Me</h1>
+    <div class="container-fluid about-section" id="about">
+      <h1 style="color: greenyellow" class="text-center py-3">About Me</h1>
 
-      <div class="row py-5 text-white">
-
-        <div class="col-lg-6 d-flex flex-column justify-content-center pl-4">
-          <h2>Hi there,</h2>
-          <p> I am Baset, a full-stack web developer from Bangladesh. 
-            I am passionate about building excellent software that improves the lives of those around me. 
-          </p>
-          <h6>Email: shuvro.aps.75@gmail.com</h6>
-          <h6>Mobile: +880-1673841675</h6>
+      <div class="row pt-5 text-white">
+        <div data-aos="zoom-in" class="col-lg-6 d-flex justify-content-center align-items-center">
+          <div class="ms-lg-5">
+            <h2>Hi there,</h2>
+            <p> I am Baset, a full-stack web developer from Bangladesh. 
+              I am passionate about building excellent software that improves the lives of those around me.
+            </p>
+          </div>
         </div>
-        <div class="col-lg-3 d-flex flex-column justify-content-center ">
-          <h3>Education:</h3>
-          <h6>Bsc in CSE</h6>
-          <h6>University of Development Alternative</h6>
-          <h6>2018</h6>
-
-        </div>
-        <div class="col-lg-3 d-flex flex-column justify-content-center ">
-          <h3>Experience:</h3>
-          <h6>Expo IT</h6>
-          <h6>Junior Software Engineer</h6>
-          <h6>Oct 2019 - June 2020</h6>
+        <div data-aos=zoom-in" class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <div class="about-me">
+            <img class="img-fluid" src="images/baset.png" alt="">
+          </div>
+          <div class="d-flex justify-content-around align-items-center social-link mt-4">
+            <a href="https://www.facebook.com/shuvro.baset.7/"><i class="social-icon fab fa-facebook"></i></a> 
+            <a href="https://www.linkedin.com/in/shuvro-baset/"><i class="social-icon fab fa-linkedin"></i></a> 
+            <a href="https://github.com/shuvro-baset"><i class="social-icon fab fa-github"></i></a> 
+            <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox"><i class="social-icon fab fa-google"></i></a>
+            <a href="https://twitter.com/shuvro_75"><i class="social-icon fab fa-twitter"></i></a>
+           </div>
         </div>
       </div>
-      <div class="row py-4">
-        <div class="col-lg-12 d-flex justify-content-around align-items-center">
-           <a href="https://www.facebook.com/shuvro.baset.7/"><i class="social-icon fab fa-facebook"></i></a> 
-           <a href="https://www.linkedin.com/in/shuvro-baset/"><i class="social-icon fab fa-linkedin"></i></a> 
-           <a href="https://github.com/shuvro-baset"><i class="social-icon fab fa-github"></i></a> 
-           <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox"><i class="social-icon fab fa-google"></i></a>
-           <a href="https://twitter.com/shuvro_75"><i class="social-icon fab fa-twitter"></i></a>
-           <a href="https://stackoverflow.com/users/12178706/shuvro-aps"><i class="social-icon fab fa-stack-overflow"></i></a>
-           <a href="https://medium.com/@shuvro.aps.75"><i class="social-icon fab fa-medium"></i></a>
+      <div class="row py-3 d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div data-aos="fade-right" class="second-bg w-50 m-2">
+            <h3>Education:</h3>
+            <h6>Bsc in CSE</h6>
+            <h6>University of Development Alternative</h6>
+            <h6>2018</h6>
           </div>
+          <div data-aos="fade-left" class="second-bg w-50 m-2">
+            <h3>Experience:</h3>
+            <h6>Expo IT</h6>
+            <h6>Junior Software Engineer</h6>
+            <h6>Oct 2019 - June 2020</h6>
+          </div>
+        </div>
+        
       </div>
     </div>
 
-    <div class="container-fluid skill-part">
-      <div class="row py-5">
-            
+    <!-- skill section -->
+    <div class="container-fluid py-5 skill-part" id="skills">
+      <div class="row">
+      <h2 class="text-center">My Skills</h2>
+
             <div class="slider">
               <div class="slide-track">
                 <div class="skill p-3 slide">
@@ -177,17 +188,17 @@
             </div>
       </div>
     </div>
+
 <!-- projects part  -->
     <div class="container-fluid project-part">
       <h1 class="pt-5 text-center text-white">Projects</h1>
       <div class="row py-4">
-        <div class="col-lg-6 d-flex justify-content-around align-items-center my-3">
+        <div data-aos="flip-right" class="col-lg-6 d-flex justify-content-around align-items-center my-3">
           <div class="project-container text-white">
             <img class="img-fluid rounded" src="images/sp-banner.png" alt="#">
             <div class="overlay">
               <div class="text">
                 <h4 class="">Sp watchHut</h4>
-                
                 <div>
                   <button class="btn-1"> <a href="">live site</a> </button>
                   <button class="btn-1">source code</button>
@@ -196,7 +207,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 d-flex justify-content-around align-items-center my-3">
+        <div data-aos="flip-left" class="col-lg-6 d-flex justify-content-around align-items-center my-3">
           <div class="project-container text-white">
             <img class="img-fluid rounded" src="images/travency-banner.png" alt="#">
             <div class="overlay">
@@ -211,7 +222,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 d-flex justify-content-around align-items-center my-3">
+        <div data-aos="flip-right" class="col-lg-6 d-flex justify-content-around align-items-center my-3">
           <div class="project-container text-white">
             <img class="img-fluid rounded" src="images/ms-child-banner.png" alt="#">
             <div class="overlay">
@@ -226,7 +237,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 d-flex justify-content-around align-items-center my-3">
+        <div data-aos="flip-left" class="col-lg-6 d-flex justify-content-around align-items-center my-3">
           <div class="project-container text-white">
             <img class="img-fluid rounded" src="images/academic-banner.png" alt="#">
             <div class="overlay">
@@ -243,16 +254,14 @@
             </div>
           </div>
         </div>
-
       </div>
-      
       
       </div>
     </div>
 
 
 
-    <section>
+    <section id="contact">
       <div class="container-fluid contact-me">
         <h2 class="text-center text-white pt-5">Contact Me</h2>
         <div class="row d-flex justify-content-center align-items-center py-5">
@@ -310,6 +319,13 @@
         loop: true,
       })
     </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
 
 </body>
 </html>
