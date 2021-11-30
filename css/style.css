@@ -186,3 +186,21 @@
 .footer-part{
     background-color: #000000;
 }
+
+
+
+
+/* project page start */
+.prj-gallery{
+    margin: 10px 50px;
+}
+.prj-gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(0);
+    transition: 1s;
+}
+.prj-gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
