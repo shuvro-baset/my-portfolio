@@ -82,7 +82,7 @@
                          url("../images/banner.jpg");
   
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 450px; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
