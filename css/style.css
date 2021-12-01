@@ -77,7 +77,7 @@
 
 #particles-js{
     background-image: linear-gradient(rgba(0, 0, 0, 0.503), rgba(0, 0, 0, 0.516)),
-                         url("/images/banner.jpg");
+                         url("../images/banner.jpg");
   
     /* Set a specific height */
     min-height: 400px; 
