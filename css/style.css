@@ -3,7 +3,13 @@
     margin: 0;
     padding: 0;
 }
-
+:root{
+    --primary-bg-color: #000;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
 .btn-1{
     color: #000;
     margin: 5px;
