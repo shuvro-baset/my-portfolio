@@ -39,13 +39,14 @@
 }
 .title{
     color: #00E6E4;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
 }
 .desc{
     color: rgba(255, 253, 253, 0.85);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
 }
 
 .nav-bg{
