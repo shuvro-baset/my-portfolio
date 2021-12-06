@@ -4,11 +4,11 @@
     padding: 0;
 }
 :root{
-    --primary-bg-color: #000;
-    --primary-text-color: #fff;
+    /* --primary-bg-color: #000;
+    --primary-text-color: #fff; */
 
-    /* --primary-bg-color: #fff;
-    --primary-text-color: #000; */
+    --primary-bg-color: #fff;
+    --primary-text-color: #000;
 }
 #icon{
     width: 30px;
@@ -54,17 +54,17 @@
     font-weight: 700;
 }
 .desc{
-    color: rgba(255, 253, 253, 0.85);
+    color: var(--primary-text-color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
 
 .nav-bg{
-    background-color: var(primary-bg-color);
-    color: var(primary-text-color) !important;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color) !important;
 }
 .nav-link{
-    color: var(primary-text-color) !important;
+    color: var(--primary-text-color) !important;
     font-family: 'Comic Neue', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -118,7 +118,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: var(--primary-text-color);
 }
 .auto-text{
     font-size: 50px;
@@ -132,7 +132,7 @@
     color: #000;
 }
 .about-section{
-    background-color: #000000;
+    background-color: var(--primary-bg-color);
 }
 .about-desc2{
     width: 300px;
@@ -147,7 +147,7 @@
     color: rgb(255, 255, 255);
 }
 .skill-part{
-    background-color: #000000;
+    background-color: var(--primary-bg-color);
 }
 .slider{
     height: 250px;
@@ -207,9 +207,11 @@
     transform: rotateZ(180deg);
 }
 .project-part{
-    background-color: #000000;
+    background-color: var(--primary-bg-color);
 }
-
+#project-id{
+    background-color: var(--primary-bg-color);
+}
 .project-container {
     position: relative;
     width: 100%;
@@ -244,21 +246,21 @@
   }
 
 .contact-me{
-    background-color: #000000;
+    background-color: var(--primary-bg-color);
 }
 .contact-desc{
-    background-color: #0707075e;
+    background-color: var(--primary-bg-color);
     height: 200px;
     width: 200px;
-    color: #fff;
+    color: var(--primary-text-color);
 }
 .contact-desc i{
     font-size: 30px;
     color:#00E6E4;
 }
 .footer-part{
-    background-color: #000000;
-    color:rgba(255, 255, 255, 0.7)
+    background-color: var(--primary-bg-color);
+    color:var(--primary-text-color);
 }
 
 /* project page start */
@@ -273,5 +275,5 @@
     transform: scale(1.1);
 }
 .prj-bg{
-    background-color: #000000;
+    background-color: var(--primary-bg-color);
 }
