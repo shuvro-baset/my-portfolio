@@ -6,10 +6,13 @@
 :root{
     --primary-bg-color: #fff;
     --primary-text-color: #000;
+    --primary-btn2-bg: #000;
 }
 .dark-theme{
     --primary-bg-color: #000;
     --primary-text-color: #fff;
+    --primary-btn2-bg: #53535350;
+
 }
 
 #icon{
@@ -38,14 +41,13 @@
     color: #000;
 }
 .btn-2{
-    background-color: #53535350;
+    background-color: var(--primary-btn2-bg);
     padding: 3px 8px;
     color: #fff;
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
 }
 .btn-2:hover{
-    background-color: #53535350;
     padding: 3px 8px;
     color: #00E6E4;
 }
@@ -66,7 +68,7 @@
     color: var(--primary-text-color) !important;
 }
 .nav-link{
-    color: var(--primary-text-color) !important;
+    color: #000 !important;
     font-family: 'Comic Neue', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -251,10 +253,10 @@
     background-color: var(--primary-bg-color);
 }
 .contact-desc{
-    background-color: var(--primary-bg-color);
+    background-color: var(--primary-btn2-bg);
     height: 200px;
     width: 200px;
-    color: var(--primary-text-color);
+    color: #fff;
 }
 .contact-desc i{
     font-size: 30px;
