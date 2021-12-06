@@ -5,6 +5,7 @@
 }
 :root{
     --primary-bg-color: #000;
+    --primary-text-color: #fff;
 }
 #icon{
     width: 30px;
