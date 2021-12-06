@@ -6,6 +6,9 @@
 :root{
     --primary-bg-color: #000;
     --primary-text-color: #fff;
+
+    /* --primary-bg-color: #fff;
+    --primary-text-color: #000; */
 }
 #icon{
     width: 30px;
@@ -57,11 +60,11 @@
 }
 
 .nav-bg{
-    background-color: #000000;
-    color: #fff !important;
+    background-color: var(primary-bg-color);
+    color: var(primary-text-color) !important;
 }
 .nav-link{
-    color: #000 !important;
+    color: var(primary-text-color) !important;
     font-family: 'Comic Neue', cursive;
     text-transform: uppercase;
     font-weight: 700;
