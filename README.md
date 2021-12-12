@@ -8,6 +8,7 @@ Please review my attached resume for additional details regarding my expertise. 
 Thank you for your consideration. 
 
 
-
-1. https://jobs.theguardian.com/job/7653491?utm_source=odpy&utm_medium=slkn&utm_campaign=limitedlistings&utm_content=displayad&CMP_TU=jbsr&CMP_BUNIT=jobs
-2. https://www.tiptopjob.com/jobseeker/quickjobapplication.asp
+1. https://www.linkedin.com/jobs/view/2834432953/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SKILL_ASSESSMENTS&refId=uxnBTiv6tDtv3IpWrrYA7g%3D%3D&trackingId=WECahFUhikmw%2BdQsvEeGBA%3D%3D&trk=flagship3_search_srp_jobs
+2. https://www.indeed.com/viewjob?jk=f8e5270999f5676b&tk=1fmngu9mvocam802&from=mobhp_jobfeed
+3. https://www.indeed.com/viewjob?jk=fe707abeccae161c&tk=1fmngu9mvocam802&from=mobhp_jobfeed
+4. https://www.linkedin.com/posts/quantex-ok_job-search-activity-6872556106070155264-kLHH
